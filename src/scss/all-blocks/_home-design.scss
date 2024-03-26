@@ -1,0 +1,107 @@
+.design {
+    padding: 44px 76px 44px 100px;
+    margin-bottom: 67px;
+    background: rgb(252, 248, 243);
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    gap: 0 32px;
+}
+
+.home-design-big-box {
+    width: 422px;
+}
+
+.home-design-title {
+    margin-bottom: 7px;
+    color: rgb(58, 58, 58);
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.home-design-text {
+    margin-bottom: 25px;
+    color: rgb(97, 97, 97);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.home-design-link {
+    padding: 12px 36px;
+    background: rgb(184, 142, 47);
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.home-design-min-box {
+    width: 404px;
+    width: 582px;
+    padding: 428px 115px 24px 24px;
+    background-image: url("/src/assets/img/home-design-img1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-design-min-wrap {
+    display: flex;
+    align-items: end;
+}
+
+.home-design-min-box-wrap {
+    width: 217px;
+    height: 130px;
+    padding: 32px 17px 32px 32px;
+    backdrop-filter: blur(3px);
+    background: rgba(255, 255, 255, 0.72);
+}
+
+.home-design-min-box-text {
+    margin-bottom: 8px;
+    color: rgb(97, 97, 97);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+    .home-design-min-box-span {
+
+        width: 27px;
+        border: 1px solid rgb(97, 97, 97);
+    }
+
+}
+
+.home-design-min-box-title {
+    color: rgb(58, 58, 58);
+    font-family: "Poppins";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.home-design-min-button {
+    padding: 18px 15px;
+    border: none;
+    background: rgb(184, 142, 47);
+}

@@ -1,0 +1,57 @@
+.header {
+    padding: 50px 0;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-big-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0 320px;
+}
+
+.header-logo-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0 5px;
+
+    h2 {
+        color: rgb(0, 0, 0);
+        font-family: "Montserrat", sans-serif;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 41px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+}
+
+.header-blog-list {
+    display: flex;
+    align-items: center;
+    gap: 0 35px;
+
+    .header-blog-item {
+
+        h3 {
+            color: rgb(0, 0, 0);
+            font-family: "Poppins";
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+
+    }
+}
+
+.header-icon-list {
+    display: flex;
+    align-items: center;
+    gap: 0 50px;
+}

@@ -1,0 +1,46 @@
+.shop-hero {
+    width: 100%;
+    height: 316x;
+    padding: 121px 660px 97px 660px;
+    background-image: url("/src/assets/img/shop-hero-bc.jpeg");
+    background-repeat: no-repeat;
+
+
+    h1 {
+        margin-bottom: 4px;
+        color: rgb(0, 0, 0);
+        font-family: "Poppins";
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 72px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .shop-hero-wrap {
+        display: flex;
+        align-items: center;
+        gap: 0 6px;
+
+        h3 {
+            color: rgb(0, 0, 0);
+            font-family: "Poppins";
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+
+        h4 {
+            color: rgb(0, 0, 0);
+            font-family: "Poppins";
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+
+}
